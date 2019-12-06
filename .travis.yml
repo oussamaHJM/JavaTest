@@ -1,3 +1,6 @@
 language: java
 script:
-  - javac hello_worl.java
+  - javac Hello.java
+jdk:
+  -openjdk8
+  -openjdk9
